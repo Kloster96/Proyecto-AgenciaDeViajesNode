@@ -26,7 +26,7 @@ CREATE TABLE `viajes` (
   `disponibles` int DEFAULT NULL,
   `slug` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 INSERT INTO `testimoniales` (`id`, `nombre`, `correo`, `mensaje`) VALUES
 (4, 'Kloster', 'luciano@klostehotmail.com', 'Si muy contenta con su servicio yo tengo de trabajar ya con ustedes 5 años muy bien servicio en todo los aspectos por ejemplo Reembolso, Devoluciónes y en especial los clientes quedan muy contentos con nuestros servíos porque nos ayudan al momentos los recomiendo como siempre al 100 y muchas gracias por su apoyo y el servicio que nos brindan en especial Mareli es Mi agente me ayuda y siempre tiene una solución para darle la Inf. Mis pasajeros . Gracias');
