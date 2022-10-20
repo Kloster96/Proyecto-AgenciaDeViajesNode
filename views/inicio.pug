@@ -1,0 +1,39 @@
+extends ./layout/index
+
+block slider
+    .slider
+        .h1 Rio De Janeiro
+        em Aventura
+
+block contenido
+    main.container.mt-5
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6
+                p Los mejores precios en vuelos baratos y pasajes aéreos, hoteles, paquetes turísticos, alquiler de autos, cruceros y más, están en Despegar. Podés planificar tu viaje ahora y realizar reservas con opciones económicas y ofertas increíbles. En Despegar podés elegir tu destino favorito y comenzar a planificar tus tan esperadas vacaciones. Podés consultar disponibilidad de vuelos y hoteles de forma rápida y sencilla, para encontrar la opción que más se ajuste a tus necesidades. Tenemos ofertas a miles de destinos y contamos con una gran variedad de hoteles para que puedas hospedarte y disfrutar de tu estadía sin problemas.
+            
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt=" imagen Inicio", class="img-fluid")
+
+        include ./layout/bloque_viajes
+
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido 
+                        h3 5% De Descuento 
+                        p.titulo Viaje a Canada 
+                        p.fecha 20 de Marzo de 2022 - 28 de Marzo de 2022
+                        p.precio $800
+
+
+    .container
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales
+        
+
+
+
+
+            
